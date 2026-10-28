@@ -1,0 +1,59 @@
+[build]
+  publish = "dist"
+  functions = "netlify/functions"
+  command = "echo 'Surdo AI ready'"
+
+[[redirects]]
+  from = "/api/tts"
+  to = "/.netlify/functions/tts"
+  status = 200
+
+[[redirects]]
+  from = "/api/tts/*"
+  to = "/.netlify/functions/tts"
+  status = 200
+
+[[redirects]]
+  from = "/api/ai-grammar"
+  to = "/.netlify/functions/ai-grammar"
+  status = 200
+
+[[redirects]]
+  from = "/api/ai-grammar/"
+  to = "/.netlify/functions/ai-grammar"
+  status = 200
+
+[[redirects]]
+  from = "/api/speech-chat"
+  to = "/.netlify/functions/speech-chat"
+  status = 200
+
+[[redirects]]
+  from = "/api/speech-chat/"
+  to = "/.netlify/functions/speech-chat"
+  status = 200
+
+[[redirects]]
+  from = "/api/gestures"
+  to = "/static/gestures.json"
+  status = 200
+
+[[redirects]]
+  from = "/api/gestures/"
+  to = "/static/gestures.json"
+  status = 200
+
+[[redirects]]
+  from = "/voice-surdo"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/voice-surdo/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

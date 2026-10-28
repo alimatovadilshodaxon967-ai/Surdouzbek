@@ -1,0 +1,9 @@
+{
+  "name": "kokanduniver",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Uzbek Surdo AI - 3D Avatar Sign Language Translation",
+  "scripts": {
+    "build": "echo 'Build complete'"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/api/gestures", "destination": "/static/gestures.json" },
+    { "source": "/api/gestures/", "destination": "/static/gestures.json" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
