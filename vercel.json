@@ -4,6 +4,12 @@
   "rewrites": [
     { "source": "/api/gestures", "destination": "/static/gestures.json" },
     { "source": "/api/gestures/", "destination": "/static/gestures.json" },
+    { "source": "/api/tts", "destination": "/api/tts.js" },
+    { "source": "/api/tts/", "destination": "/api/tts.js" },
+    { "source": "/api/speech-chat", "destination": "/api/speech-chat.js" },
+    { "source": "/api/speech-chat/", "destination": "/api/speech-chat.js" },
+    { "source": "/surdo-voice", "destination": "/index.html" },
+    { "source": "/voice-surdo", "destination": "/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
